@@ -1,0 +1,430 @@
+@charset "utf-8";
+/*index css */
+.fa{
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 0.9;
+}
+#top_bar{
+	background:#383838;
+	position:relative;
+	height:35px;
+}
+.zy_contacts{
+	width:auto
+}
+.zy_contacts ul li{
+	float:left;
+	overflow:hidden;
+	color:#CCC;
+	font-size:12px;
+	padding-right:15px;
+}
+.zy_contacts ul li a{
+	color:#CCC;
+	font-size:12px;
+}
+.fa-phone{
+	background:url(../images/index/zy_call.png) no-repeat;
+	width:10px;
+	height:13px;
+	margin:0 1px 0 0;
+}
+.fa-email{
+	background:url(../images/index/zy_email.png) no-repeat;
+	width:16px;
+	height:11px;
+	margin:0px 3px 0 0;
+}
+.fa-chat{
+	background:url(../images/index/zy_chat.png) no-repeat;
+	width:16px;
+	height:11px;
+	margin:0px 3px 0 0;
+}
+#top_nav{
+	background:#3F3F3F;
+	position:relative;
+	height:100px;
+	border-top:1px #404040 solid;
+}
+#top_nav .logo{ padding-top:15px;}
+#footer{ background-color:#2f2f2f; position:relative; padding:15px 0 10px 0; }
+.zy_foottext{ padding-top:10px;}
+.zy_foottext p{ font-size:16px; font-weight:300; color:#aaa; font-style:normal; text-transform:uppercase}
+.zy_foottext ul li{ line-height:150%}
+.zy_foottext ul li a{ color:#ccc; font-size:14px;font-weight:300;}
+.zy_footimg{ padding-top:20px;}
+.zy_footimg img{ padding-left:15px;}
+.zy_footbot{ border:none;border-top:1px #666 solid; padding:10px 0 0 0; margin-top:15px;}
+.zy_footbot p{ line-height:12px; font-size:12px; color:#aaa; padding:5px 0 0 0; margin:0}
+.zy_footbot li a{ color:#aaa; font-size:12px}
+.zy_foottext2{ padding:0; margin:0; color:#aaa; font-size:12px;}
+.index_text{ background:#DDD; padding:10px 0; text-align:center}
+.index_text h1{ font-size:28px;font-weight:300; color:#666;font-family: Lato, sans-serif, "Open Sans";letter-spacing: normal; line-height:50px;}
+.index_text p{ font-size:14px; color:#555; line-height:22px; padding-bottom:10px;text-align:center}
+.index_itin{ padding:10px 0; margin-bottom:30px;}
+.index_itin h1{ font-size:30px; font-weight:100;}
+.index_itin h1,h4{ text-align:center; color:#555;}
+.index_itin1{ margin:10px 0 0px 0; width:auto; height:auto; background:#eee; border-bottom:3px #D4CEC6 solid;}
+.index_itin1_img{width:auto; position:relative}
+.index_itin1_text{padding:0 10px;border:none;text-align:center; overflow:hidden}
+.index_itin1_text1{ font-size:13px; color:#E37417; text-transform:uppercase; font-weight:bold; padding-top:10px;margin:0}
+.index_itin1_text2{ font-size:12px; color:#555;padding-top:8px; line-height:20px; margin:0}
+.index_itin1_text3{ background:#E5842E; width:100px; padding:5px 0;border-radius: 3px; text-align:center;margin:20px auto 15px auto}
+.index_itin1_text3 a{ color:#fff; text-transform:uppercase; font-size:12px; text-align:center; display:block}
+.glright {background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;color: #fff;font-size: 14px; bottom:0;padding:10px 5px; margin:0;position: absolute;width: 100%; text-align:center; text-transform:uppercase; font-weight:bold}
+/*Rainbow Mountains China css */
+.rm_text{margin-bottom:20px; border-bottom:1px #ccc solid; }
+.rm_text h1{ font-size:34px; color:#555; font-weight:800}
+.rm_text h6{ font-size:14px; color:#555; line-height:20px; font-weight:300; padding-top:10px;padding-bottom:20px;}
+.rm_lebut{ position:relative; padding-top:10px;}
+.rm_lebut ul li.selected1{margin-top:10px;}
+.rm_lebut ul li.selected2{margin-top:10px;}
+.rm_lebut ul li.selected1 a{ color:#fff; font-size:15px; font-weight:bold; height:auto; display:block; background:#E5842E; padding:8px 15px;border-radius: 3px; }
+.rm_lebut ul li.selected1 a:hover{ color:#fff;background:#2f2f2f;border-radius: 3px; text-decoration:none}
+.rm_lebut ul li.selected1 a span{ background:url(../images/index/rm_arrowr.png) no-repeat; width:7px; height:9px; float:right; margin-top:7px;}
+.rm_lebut ul li.selected2{ background:#2f2f2f;height:auto; display:block;padding:8px 15px;border-radius: 3px;  }
+.rm_lebut ul li.selected2 a{ color:#fff; font-size:15px; font-weight:bold; }
+.rm_lebut ul li.selected2 a span{ background:url(../images/index/rm_arrowr.png) no-repeat; width:7px; height:9px; float:right; margin-top:7px;}
+.mb30{ margin-bottom:30px;}
+.rm_img{ padding:10px 0 0 0; margin:0; width:auto;}
+.rm_img_text1{ text-align:center; color:#333; font-size:15px; padding:0; margin-top:5px;}
+.rm_imgpad{ margin-right:0; padding-right:0}
+.rm_img1{ width:auto;margin:10px 0 0 0; background:#efefef; border-bottom:2px #ccc solid;}
+.rm_bttext{ margin-left:15px; text-align:left}
+.rm_bttext h3{ color:#555}
+.rm_bttext h5,p{ color:#555; padding-top:10px;}
+.rm_bttext h5{ font-size:18px;}
+/*zhangye tours css */
+.zyt_bg{ background:#EFEFEF; padding:30px 0; overflow:hidden}
+.zyt_itnbg{border-bottom: 1px solid #e1e3e4;box-shadow: 0 6px 8px -6px rgba(0, 0, 0, 0.4); box-sizing: border-box; background:#fff; padding:0; margin:0; position:relative;/* height:100%; */margin-top:15px}
+.zyt_itnbg h3{font-size:18px; line-height:18px; font-weight:300;}
+.zyt_itnbg h3,p,li{ color:#555; text-align:left}
+.zyt_itnbg ul li{ list-style:disc; font-size:12px; line-height:20px; margin-left:15px;}
+.zyt_price{ border-left:1px #ddd solid; position:relative; display:table-cell;overflow:hidden; min-height:265px; max-height:100%; text-align:right;}
+.zyt_price1{ font-size:12px}
+.zyt_price2{ position:absolute; bottom:0px; left:15px; right:15px; width:auto; }
+.zyt_price2 a{ color:#fff; font-size:14px; font-weight:bold; height:auto; display:block; background:#E5842E; padding:15px 25px; text-transform:uppercase; letter-spacing:1px;}
+.zyt_price2 a span{ background:url(../images/index/rm_arrowr.png) no-repeat; width:7px; height:9px; float:right; padding:0; margin:0;}
+.zyt_price2 a:hover{ text-decoration:none; background:#2f2f2f}
+.zyt_price3{}
+.zyt_price3 span{ color:#000; font-weight:bold}
+@media (max-width: 768px) {
+	.zyt_price{ text-align:left;min-height:inherit; padding:0; margin:0}
+    .zyt_price1{ font-size:12px; padding:5px 0 0 0;margin:0}
+	.zyt_price2{ position:relative;width:auto;text-align:center; left:0; right:0; padding:10px 0 0 0 }
+    .zyt_price2 a{ color:#fff; font-size:14px; font-weight:bold; height:auto; display:block; background:#E5842E; padding:8px 0px; text-transform:uppercase; letter-spacing:1px; text-align:center}
+    .zyt_price2 a span{ background:none; padding:0; margin:0;}
+    .zyt_price2 a:hover{ text-decoration:none; background:#2f2f2f}
+	.zyt_itnmid{ padding:5px 0 0 0; margin:0}
+	.zyt_itnimg{ margin-bottom:5px}
+	.zyt_itnbg h3{padding:10px; margin:0}
+	.zyt_price3{ padding:0; margin:0}
+}
+/*Zhangye Itinerary css */
+.itin_top{ padding:10px 0 0px 0}
+.itin_text1{ font-size:28px; color:#000; text-transform:uppercase; padding-top:0; padding-bottom:3px; margin:0; border-bottom:1px #333 solid;}
+.itin_text1a{ font-size:14px;}
+.itin_text2{ padding:4px 0 0 0; color:#000; font-weight:bold; text-transform:uppercase; margin:0}
+.itin_text3 span{padding-right:10px;}
+.itin_text3{ padding:10px 0 4px 0; color:#555; font-size:12px;text-transform:uppercase; margin:0; border-bottom:1px #333 solid;}
+.itin_text4{ padding:5px 0 15px 0; color:#000;text-transform:uppercase; margin:0; border-bottom:1px #333 solid;}
+.itin_text5{ color:#444;}
+.itin_text6 img{ padding-right:20px; padding-bottom:10px;}
+.itinerary{ width:100%; margin:0px; padding:0 0 20px 0; clear:both}
+.switchTags {border-bottom:3px solid #E5842E;overflow:hidden;height:32px;background:#FFF;z-index:10;margin:10px 0px 0px 0px;width:auto;position:relative;display:block;padding:0px;}
+.switchTags ul {margin-left:0}
+.switchTags ul li {list-style:none;float:left;width:auto;padding:5px 20px 0px 20px;margin-right:5px;text-align:center;font-size:14px;background:#535353;height:29px;border-top-left-radius:4px;border-top-right-radius:4px;color:#fff;cursor:pointer}
+.switchTags ul li a {text-decoration:none;color:#fff; text-transform:uppercase; font-size:15px; font-weight:800}
+.switchTags ul li.selected, .switchTags ul li:hover {background:#E5842E;color:#fff}
+.switchTags ul li.selected a, .switchTags ul li:hover a {color:#fff}
+.itin_day{ padding-top:15px;}
+.itin_day1{ border-bottom:1px #999 dashed; padding-bottom:20px;}
+.fa-cloud {background:url(../images/index/itin_cloud.jpg) no-repeat;width:15px;height:11px;margin:0 6px 0 0;}
+.fa-meals{background:url(../images/index/itin_meals.jpg) no-repeat;width:12px;height:14px;margin:0 6px 0 0;}
+.itin_day1_tit{ font-size:22px; color:#ED9750; font-weight:100; padding:10px 0 0 0; margin:0;}
+.itin_day1_txt1{ padding:8px 0 0 0; margin:0;}
+.itin_day1_txt2{ padding:5px 0 0 0; margin:0;}
+.itin_day1_txt3{ padding:10px 0 0 0; margin:0;}
+.itin_day1_img2{ padding:20px 0 0 0; margin:0;}
+.itin_day1_img1{ padding:0; margin:0; text-align:center}
+.itin_day1 ul li{ width:260px;margin-right:15px;}
+.itin_form{ background:#d1d1d1;border-radius:4px; margin-top:20px; padding:15px 10px}
+.itin_form_tit1{ color:#2f2f2f; font-size:28px; font-weight:900; text-transform:uppercase; text-align:center; padding:5px 0 0 0; margin:0}
+.itin_form_tit2{ text-align:center; font-size:16px; padding:5px 0 15px 0; margin:0; line-height:18px;}
+.question_cont p{ padding:0; margin:0}
+.question_cont .infoRequired input, textarea {width:100%;height:35px;font-size:14px;padding:5px;background-color:#fff;margin-bottom:10px;border-color:#D1D1D1 #999 #999 #D1D1D1;border-radius:4px;border-style:solid;border-width:1px;box-shadow:2px 2px 2px #d1d1d1;}
+.question_cont .infoRequired input:focus, textarea:focus {border-color:#F2C093;box-shadow:0 4px 5px rgba(0, 0, 0, 0.075) inset, 0 0 8px #E5842E;}
+.question_cont .infoRequired textarea {height:150px}
+.question_cont .sendButton {margin:10px 0 0px 0px;display:block;background:#E5842E;border:none;text-align:center;padding:5px 0 5px 0px;width:100%;color:#fff;font-size:16px;border-radius:4px;}
+.itin_price{padding-top:15px;}
+.itin_price1_tit{ color:#555; font-size:18px; font-weight:600}
+.itin_price1_tit span{ color:#D8751B; font-weight:600; font-size:20px;}
+.itin_price1 ul li{ list-style:disc; margin-left:15px; line-height:24px;}
+.itin_relate{ background:#f5f5f5; padding:15px 0 50px 0; position:relative}
+.itin_relate h1{ color:#555; font-size:30px; font-weight:100; text-align:center}
+.itin_relate ul li{ width:275px; position:relative; float:left; padding-top:5px;}
+.itin_relate_ml{ margin-left:10px}
+/*Create My Trip css */
+.diy_bg{ background:#f5f5f5; margin:0; padding-bottom:20px;}
+.diy_top h1{ font-weight:bold; color:#555}
+.diy_top_txt1{ font-size:16px; font-weight:300}
+.diy_form{ display: block; margin:5px 0 0 0; overflow:hidden}
+.diy_form_top { margin:10px 0 5px 0; position:relative; padding-left:0;}
+.diy_form_top label { color: #666; display: block; font-size: 14px; font-weight: bold; margin-bottom: 4px; font-family: Lato, sans-serif, "Open Sans"}
+.diy_checklab{ color: #666; display: block; font-size: 14px; font-weight: bold;font-family: Lato, sans-serif, "Open Sans"; padding:0 0 5px 0; margin:0}
+
+.diy_form_top input { font-size: 13px; font-weight: normal; line-height: 1.2; padding:6px 3px; background-color: #fff; border-color: #D1D1D1 #999999 #999999 #D1D1D1; border-width:1px; border-style:solid; color: #333; width: 100%;font-family: Lato, sans-serif, "Open Sans"; border-radius:2px; margin:0 !important;}
+.datesArrival input:focus,.daysBlock input:focus,.diy_form_top input:focus,.familyDetail input:focus{ border-color:#F2C093; box-shadow:0 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 6px #E5842E}
+.diy_form_top input.fullname { width:100%;}
+.diy_form_top select{border-color: #D1D1D1 #999 #999 #D1D1D1; border-width:1px; border-style:solid; padding:4px; border-radius:2px; margin:0 0 -2px 0px; height:30px;width:100%; }
+.diy_form_top .diy_select1{ max-width:85px; min-width:75px;}
+.diy_form_top .diy_select2{ max-width:370px; min-width:270px;}
+.diy_form_top select:focus { border-color: #F2C093; box-shadow:0 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 6px #E5842E}
+.diy_form_tit1{ font-size:18px; font-weight:300; text-transform:uppercase; border-bottom:1px #ccc solid; padding:20px 0 4px 0;}
+.required{ color:#C00; font-weight:bold}
+.diy_form_top .diy_select3{ width:80px;}
+.diy_checkbox1{ width:100px; font-weight:normal; font-size:12px;}
+.diy_checkbox1 input{ margin:2px 5px 0 0;}
+.diy_button{ padding:15px 0; clear:both; overflow:hidden}
+.diy_button1{background-color:#E5842E; padding:5px 15px; border:none;border-radius: 3px; color:#fff;margin-right:10px; font-weight:600}
+.diy_button1:hover{background:#2f2f2f; padding:5px 15px;border-radius: 3px; color:#fff; text-decoration:none}
+
+/*error*/
+.error-form{ max-width:600px;margin:20px auto; background:#d1d1d1; padding:20px; text-align:left;}
+.error-block h1{ text-align:center;}
+.error-block span{ color:#333; font-size:20px; padding:0 0 15px 0; display:block;}
+.error-block p{text-align:center;}
+.error-block input{ float:left;}
+
+/*Create My order css */
+.content-order-bg{ background:#efefef;}
+.container-order{ width:970px;}
+.create-order-left{ background:#fff; box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);margin-top: -100px; padding:0; }
+.create-order-right{ margin-top:20px; font-size:14px; padding:25px; line-height:24px; color:#555;}
+.create-order-right label{ color:#333; font-size:21px;}
+.create-order-right b{ font-size:15px; color:#000;}
+.create-order-right span{ font-size:20px; color:#000; font-weight:bold;}
+.create-order-left #order_form{padding:10px 40px;}
+.tourSelected{ border:1px solid #f5c1b8;background:url(../images/index/order_bg01.jpg) no-repeat left bottom;}
+
+.tourSelected li{ color:#e06728;font-size: 18px;line-height: 30px;margin-bottom: 5px;padding-left: 25px;}
+.tourSelected li strong{ color:#666; font-weight:normal;}
+.tourSelected li.first{font-size: 22px; background:#bbb; color:#fff; padding:2px 0 5px 20px;}
+#order_form h3{ font-size:21px;border-bottom:1px solid #333; padding:3px; text-transform:uppercase;}
+#order_form h3 label{ background:#888; color:#fff; font-size:17px; font-weight:normal; padding:3px 8px; margin-right:20px;}
+.field-group-row::after{clear: both; content: " "; display: block;font-size: 0;height: 0;visibility: hidden;width: 100%;}
+.field-group-row .field-group{ float:left; margin:15px 0;}
+.field-group label{display: block; color:#333;margin: 0;padding-bottom: 8px; font-weight:normal;}
+.field-group-row label.required::after{ color:#c32d3b; content: "*";margin-left: 0.25em;}
+.field-group-row .field-group .field{display: inline-block; margin: 0 15px 0 0;vertical-align: top;}
+.field-group-row input, select, textarea{border: 1px solid #c5c5c5;box-sizing: border-box;color: #8a8a8a;outline-color: #4aa180;padding: 4px 16px 4px 8px;} 
+.field-group #OtherComments
+{
+	border-radius: 0;
+	box-sizing: border-box;
+	height: 120px;
+	max-width: 97%;
+	min-width: 97%;
+	width: 97%;
+}
+.full-width
+{
+	max-width: 100%;
+	width: 100%;
+}
+.field-group-row select
+{
+	background-image: url(../images/index/dropdownArrow.png) !important;
+	background-position: right 5px center !important;
+	background-repeat: no-repeat !important;
+	line-height: 1.3em;
+	moz-appearance: none;
+}
+.Wdate
+{
+	background: #fff url(../images/index/datePicker.gif) no-repeat scroll right center;
+}
+
+.cta{
+	background:#e48f32 url(../images/index/arrow_white_5x9.png) no-repeat  right 10px center;box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 24px 8px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%; max-width: 280px; border:none;margin: 20px 20px 0 auto;
+}
+.cta:hover{ background-color:#e9a458;}
+.create-order-left input.cta + p{margin-left: auto; margin-right:10px;max-width: 280px;text-align: center; color:#dd8776; font-size:13px;}
+/*zhangye Transport*/
+.train-table{ background:#fff;
+	border-bottom: medium none;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+	margin:25px 0 50px 0;
+	}
+.train-table th, .train-table td{
+    border: 1px solid #e6e6e9;
+    font-size: 12px;
+    padding: 8px;
+}
+.train-table th{
+    background: #ccc;
+    color: #333;
+    font-size: 13px; 
+	text-align:center;
+    height: 24px;
+}
+.train-table .soft{background:#fff8f5;}
+
+/*zhangye accomadation*/
+.tourbox{margin-top: 20px;}
+.tourbox dl
+{
+	border:1px solid #ccc;
+	padding:15px;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#fefefe,endColorStr=#ffffff); /*IE*/ 
+	background:-moz-linear-gradient(top,#fefefe,#ffffff);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#fefefe), to(#ffffff));
+	margin-bottom:5px;
+}
+.tourbox dl dt{	float:left;	border:1px solid #ccc;width:247px;position:relative;}
+.tourbox dl dt img.morephotos {
+    display: block;
+    height: 28px;
+    left: 212px;
+    position: absolute;
+    top: 166px;
+    width: 32px;
+    z-index: 5;
+	cursor:pointer;
+}
+.tourbox dl dd{float:left;margin-left:20px;width:460px; font-size:13px;}
+.tourbox dl dd h3{margin:0px 0px 10px;color:#333; font-size:18px;}
+.tourbox dl dd h3 a{color:#7E3101;font-size:18px;}
+.tourbox dl dd h3 img{	display:inline;	margin-left:20px;}
+.tourbox dl dd p{padding:0;	margin:5px 0px;}
+.tourbox dl dd p span.bld{font-weight:bold;}
+#fancybox-outer{box-sizing: content-box;}
+
+/*zhangye weather*/
+.weather-now{ background:#fafafa; border:1px solid #ccc;border-bottom:1px solid #444;  border-right:1px solid #444;width:30%; float:left;height: 303px;  line-height: 25px; padding: 27px 0 21px 15px;width: 30%; }
+.weather-block{ float:right; background:#fafafa; border:1px solid #ddd; width:70%; }
+.weather-block tr{border-bottom:1px solid #444;}
+.weather-block th{ padding:8px 0 8px 15px; text-transform:uppercase; background:#ccc; }
+.weather-block td{ padding:0 0 0 15px;}
+.weather-table{ margin:20px 0 0;} 
+
+
+/*Zhangye Travel Guide css */
+.zyt_overview{ background:#efefef; margin:0; padding-bottom:20px;}
+.zyt_overview h1{ color:#555; font-size:26px; text-transform:uppercase; font-weight:300;}
+.zyt_navbg{ padding-top:10px;height:42px; width:85%; position:relative;display:block}
+.zyt_navbg ul li{ float:left; background:#fff;border-top:1px #ccc solid;border-bottom:1px #ccc solid; border-right:1px #ccc solid;height:32px;width:auto; display:block;}
+.zyt_borlef{border-lef:1px solid #ccc;}
+.zyt_navbg ul li a{ color:#555; text-transform:uppercase; font-size:13px;display:block;padding:6px 15px 5px 15px}
+.zyt_navbg ul li.zyt_selected, .zyt_navbg ul li a:hover{ color:#fff; background:#E5842E;display:block; text-decoration:none}
+.zyt_navbg ul li.zyt_selected a, zyt_navbg ul li:hover a{color:#fff}
+.zyt_main{ padding:20px 0; margin:0}
+.zyt_left{ padding-left:0; margin-left:0}
+.zyt_right_tit{ font-size:18px; color:#333; margin:0 0 5px 17px; padding:0}
+.zyt_mtext h3{color:#555; padding-top:0; text-transform:capitalize;}
+.zyt_mtext p{ color:#555; padding-top:10px;}
+.zyt_mtext p span{ color:#333;}
+.zyt_mtext h5{ font-size:18px;padding-top:10px; color:#333}
+.zyt_mtext h6{ font-size:16px;padding-top:10px; color:#333}
+.zyt_right_top1{ width:300px; margin:0 0 15px 20px; background:#fff; padding:0 0 0px 0;border-bottom:2px #ddd solid; overflow:hidden}
+.zyt_right_top1img{ padding:0; margin:0}
+.zyt_right_top2{ padding:5px 0; overflow:hidden}
+.zyt_right_txt1{ padding:0px 0px 0px 5px; margin:0; width:80%; float:left;}
+.zyt_right_but1{ text-align:right; width:20%; float:right; padding:5px 5px 0 0; margin:0;}
+.zyt_right_txt1 a{ font-size:15px;color:#555; line-height:16px;}
+
+/*Zhangye Food css */
+.food_block01{ border-top:1px solid #ccc; margin-top:20px; padding:20px 0;}
+.food_miniblock01{ background:#fff; border: 1px solid #ccc;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5); width:243px; height:480px; padding:20px; margin:10px;}
+.food_miniblock01 label{ display:block; background:#e5842e; color:#fff; text-transform:uppercase; font-size:15px; text-align:center; padding:8px 0; margin:0;}
+.food_miniblock01 span{ display:block; margin:10px 0 0; font-size:13px;} 
+
+/*zhangye tour list*/
+.inner_tour_list01{}
+.inner_tour_list01 ul{ margin-top:30px;}
+.inner_tour_list01 li{ background:#fff; border:1px solid #ccc; min-height:190px; padding:5px; margin:10px 0 0;}
+.inner_tour_list01 li img{ float:left; margin:0 20px 0 0;}
+.inner_tour_list01 li div{ padding:10px 15px 0; min-height:190px; font-size:13px;}
+.inner_tour_list01 li div b{ font-size:18px;}
+.inner_tour_list01 li div p{ display:block; height:133px; overflow:hidden; font-size:13px; margin:0; padding-top:2px;}
+.inner_tour_list01 li div span{} 
+
+
+
+/*Order Successful css */
+.success_bg{ background:#f5f5f5; padding:50px 0}
+.success_bg p{ text-align:center;}
+.success_tit{ font-size:60px; font-weight:300;}
+.success_txt1{ font-size:18px; font-weight:300;}
+.success_txt2 a{ font-size:18px; font-weight:500; color:#E5842E}
+
+/* Payment Guide*/
+.payment_mid{ width:auto; margin:0px; padding-bottom:20px;}
+.payment_tit{ font-size:24px;color:#333;padding:15px 0 0 0; margin:0}
+.payment_txt1{ font-size:18px; color:#E5842E; padding:15px 0 0px 0; margin:0}
+.payment_txt2{padding:0 0 10px 0; margin:0}
+.pt10{ padding-top:10px;}
+.pb10{ padding-bottom:10px;}
+.payment_tit1{ font-size:16px; color:#333; padding:0px 0 10px 0; margin:0;}
+.payment_input input {padding:5px 10px; color:#666; background:#fff; border-color: #D1D1D1 #999 #999 #D1D1D1; border-radius: 4px; border-style: solid; border-width: 1px;font-size:12px; font-family:Verdana, Geneva, sans-serif; width:100%; border-radius:4px; box-shadow:2px 2px 4px #999; }
+.payment_input select { padding:5px 10px; color:#666; background:#fff; border-color: #D1D1D1 #999 #999 #D1D1D1; border-radius: 4px; border-style: solid; border-width: 1px;font-size:12px;width:100%; border-radius:4px; box-shadow:2px 2px 4px #999; }
+.payment_input input:focus,.payment_input select:focus, .payment_input textarea:focus { box-shadow:0 4px 5px rgba(0, 0, 0, 0.075) inset, 0 0 8px #F2C093; border-color:#E5842E }
+.transfer_txt1{ border-bottom:1px #ccc dashed;font-size:16px;padding-bottom:2px}
+
+/* contact us*/
+.contact_form{ padding:20px 0 30px 0;width:70%;}
+.contact_main label { display:inline-block; float:left; line-height:26px; width:auto; font-size:14px; font-weight:normal; color:#555}
+.contact_main input.safyemail { background:url(/images/staticpage/safty-icon.png) no-repeat 98% center #fff; }
+.contact_main textarea { padding:4px 3px; color:#666; background:#fff; border-color: #D1D1D1 #999 #999 #D1D1D1; border-radius: 4px; border-style: solid; border-width: 1px; margin:3px 0 10px 0; font-size:13px; width:100%; height:150px; border-radius:4px; box-shadow:2px 2px 4px #999; }
+.contact_input input {padding:5px 10px; color:#666; background:#fff; border-color: #D1D1D1 #999 #999 #D1D1D1; border-radius: 4px; border-style: solid; border-width: 1px; margin:3px 0 0px 0; font-size:14px;width:100%; border-radius:4px; box-shadow:2px 2px 4px #999; }
+.contact_main select{padding:5px 10px; color:#666; background:#fff; border-color: #D1D1D1 #999 #999 #D1D1D1; border-radius: 4px; border-style: solid; border-width: 1px; margin:3px 0 0px 0; font-size:14px;width:100%; border-radius:4px; box-shadow:2px 2px 4px #999; }
+.contact_main input:focus,.contact_main select:focus, .contact_main textarea:focus { box-shadow:0 4px 5px rgba(0, 0, 0, 0.075) inset, 0 0 8px #E5842E; border-color:#F2C093 }
+.required{ color:#C00}
+.contact_txt1{ padding:0; margin:0;padding-left:15px;}
+.contact_txt1 ul li{ font-size:12px; color:#555; list-style:decimal; line-height:20px;}
+/* about us*/
+.about_tit1{ font-size:20px; padding-top:30px;}
+.about_txt1{ color:#E5842E; font-size:16px;}
+.about_main{ padding-bottom:20px}
+/* Terms and Conditions*/
+.terms_col{ color:#555}
+.termstable table{ border:1px #ccc solid ; padding:1px; width:70%}
+.termstable td{	padding:5px;line-height:18px;border-bottom:1px solid #c5c5c5;border-right:1px solid #c5c5c5}
+.paycontent p{ line-height:160%}
+.required1{color:#E5842E;}
+/* Privacy Policy*/
+.privacy_main{ padding-bottom:20px;}
+.privacy_main h4{ text-align:left}
+.privacy_main a{color:#E5842E;}
+.privacy_main h4 a{color:#E5842E; font-size:16px;}
+@media (min-width:1200px) {
+   .container{ padding:0}
+
+}
+@media (max-width: 768px) {
+   .container{ padding:0 10px}
+   .rm_bttext{ margin-left:0; margin-top:10px;}
+   .rm_img1{padding:0px; margin:10px 0 0 0}
+   .rm_imgpad{ margin:0; padding:0}
+   .zyt_navbg ul li{ margin-top:5px;border:1px #ccc solid;}
+   .zyt_navbg ul li a{ color:#555; text-transform:uppercase; font-size:13px;display:block;padding:6px 15px 5px 15px; width:180px; text-align:center}
+   .contact_form{width:100%}
+.termstable table{width:100%}
+
+
+
+}

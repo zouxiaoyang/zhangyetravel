@@ -1,0 +1,434 @@
+2015/07/23 02:47:18 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:18 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:18 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:18 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:18 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:18 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:18 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:53 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:53 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:53 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:53 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:53 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:53 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:53 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:56 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:56 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:56 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:56 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:56 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:56 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:56 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:57 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:57 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:57 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:57 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:57 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:57 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:57 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "cache" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:47:58 [error] [exception.CException] exception 'CException' with message 'CMemCache requires PHP memcache extension to be loaded.' in D:\wamp\www\newwebsite\framework\caching\CMemCache.php:117
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\caching\CMemCache.php(90): CMemCache->getMemCache()
+#1 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CMemCache->init()
+#2 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(217): CModule->getComponent('cache')
+#3 D:\wamp\www\newwebsite\framework\web\CUrlManager.php(207): CUrlManager->processRules()
+#4 D:\wamp\www\newwebsite\framework\base\CModule.php(388): CUrlManager->init()
+#5 D:\wamp\www\newwebsite\framework\base\CApplication.php(503): CModule->getComponent('urlManager')
+#6 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(141): CApplication->getUrlManager()
+#7 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:47:58 [trace] [system.CModule] Loading "errorHandler" application component
+2015/07/23 02:48:35 [trace] [system.CModule] Loading "log" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:48:35 [trace] [system.CModule] Loading "request" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:48:35 [trace] [system.CModule] Loading "urlManager" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:48:35 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\wamp\www\newwebsite\index.php (13)
+2015/07/23 02:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in D:\wamp\www\newwebsite\framework\web\CWebApplication.php:287
+Stack trace:
+#0 D:\wamp\www\newwebsite\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#1 D:\wamp\www\newwebsite\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\newwebsite\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/newwebsite/index.php?r=site/index
+HTTP_REFERER=http://localhost/newwebsite/index.php?r=site/contact
+---
+2015/07/23 02:48:35 [trace] [system.CModule] Loading "errorHandler" application component
