@@ -5,6 +5,13 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
+if($_SERVER['HTTP_HOST']=='zouyiquan.zhangyetravel.lab'){
+	$db ='root';
+	$passwd='root';
+}else{
+	$db ='admin';
+	$passwd='QNnU3RSam7';
+}
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Zhangye Travel',
@@ -58,8 +65,8 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=zhangyetours',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'root',
+			'username' => $db,
+			'password' => $passwd,
 			'charset' => 'utf8',
 			'tablePrefix' => 't_',
 			'schemaCachingDuration' => '180',
